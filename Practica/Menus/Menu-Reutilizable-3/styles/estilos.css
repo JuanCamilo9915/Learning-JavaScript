@@ -1,10 +1,10 @@
-header{
+#menu-desplegable{
     max-height: 120px;
     justify-content: center;
     background-color: lightgray;
 }
 
-#menu-desplegable ul{
+#menu-desplegable .lista-principal{
     width: 70%;
     height: 120px;
     display: flex;
