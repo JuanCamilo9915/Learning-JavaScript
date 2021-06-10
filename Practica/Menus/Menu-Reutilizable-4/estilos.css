@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+
+.logoucc{
+    width: 70px;
+    height: 70px;
+}
+
+.home{
+    width: 70px;
+    height: 70px;
+}
+
+p{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+#parrafo{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    background-color: wheat;
+}
+
+#listaUl{
+    background-color: sienna;
+}
+
+#listaLi{
+    margin: auto;
+    width: 300px;
+    background-color: silver;
+}
+
+#enlace{
+    background-color: red;
+}
+
+#listaLi2{
+    margin: auto;
+    width: 300px;
+    background-color: yellowgreen;
+}
+
+#enlace2{
+    display: block;
+    /*max-width: 80px;*/
+    margin: auto;
+    /*min-height: 80px;*/
+    background-color: orange;
+}
+
+#parrafo2{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    padding: 0%;
+    /*align-content: center;*/
+    background-color: peru;
+}

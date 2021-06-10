@@ -4,6 +4,8 @@ let listaUl = document.createElement('ul');
 listaDesordenada(listaUl, 1);//Se le añade la clase listaPrincipal
 let listaUl2 = document.createElement('ul');
 listaDesordenada(listaUl2, 2);//Se le añade la clase subLista
+let navegacion = document.createElement('nav');
+navegacionNav(navegacion);//Se le añade la clase nav-menu
 
 let listaItems = ["Home", "Sobre Nosotros", "Noticias", "Destacados", "Estadisticas", "Mas Opciones"];
 let listaItems2 = ["Perfil", "Ajustes Cuenta", "Cerrar Sesión"];
@@ -14,6 +16,7 @@ const elementoLi3 = document.createDocumentFragment();//Elemento LI
 const elementoLi5 = document.createDocumentFragment();//Elemento LI
 const listaItemsP1 = document.createDocumentFragment();//Parrafo Separado
 const elementoLi1 = document.createDocumentFragment();//Elemento LI Separado
+const fragmentnav = document.createDocumentFragment();//Elemento nav
 /**************************************************************************************************************/
 for (let i = 0; i < listaItems2.length; i++) {
 
@@ -78,10 +81,17 @@ function listaDesordenada(listaDesordenada, num) {
     }
 }
 /**************************************************************************************************************/
+function navegacionNav(navegacion) {
+    navegacion.classList.add('nav-menu');
+}
+/**************************************************************************************************************/
 listaUl.appendChild(elementoLi5);
 listaUl.appendChild(elementoLi1);
 
-menu.appendChild(listaUl);
+navegacion.appendChild(listaUl);
+fragmentnav.appendChild(navegacion);
+
+menu.appendChild(fragmentnav);
 
 //console.log(listaItemsP3);
 //console.log(elementoLi3);
