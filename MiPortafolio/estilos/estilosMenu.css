@@ -1,0 +1,65 @@
+/*********************************************************Estilos Generales*********************************************************/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Times New Roman';
+    box-sizing: border-box;/*No se toma en cuenta los pixeles de los bordes*/
+}
+
+body{
+    /*background-color: skyblue;*/
+    /*background-color: lightgray;*/
+    background-color: linen;
+}
+/**********************************************************************************************************************************/
+header{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-programador{
+    width: 100px;
+    height: 130px;
+    margin: 0% 0% 0% 3%;
+}
+/*Menú de Navegación*/
+.nav-menu{
+    width: 40%;
+    height: inherit;
+    /*background-color: blue;*/
+}
+
+.menu{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    /*background-color: gray;*/
+}
+
+.elemento-li{
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    /*background-color: green;*/
+}
+
+.contenedor-nav-menu-home, .contenedor-nav-menu-conocimientos, .contenedor-nav-menu-proyectos{
+    width: 100%;
+    height: inherit;
+    /*background-color: goldenrod;*/
+}
+
+.img-home{
+    width: 100px;
+    height: 130px;
+    margin: 0% 0% 0% 25%;
+}
+
+.mis-conocimientos, .mis-proyectos{
+    padding: 15% 0% 0% 0%;
+    font-size: 30px;
+    text-align: center;
+    /*background-color: gray;*/
+}
