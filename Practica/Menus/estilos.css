@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    /*padding: 0%;*/
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkslategray;
+}
+
+.nav-menu{
+    display: flex;
+    background-color: yellowgreen;
+}
+
+.lista-principal{
+    width: 70%;
+    height: auto;
+    list-style: none;
+    /*padding: 0%;*/
+    display: flex;
+    background-color: yellow;
+}
+
+.items-menu{
+    display: block;
+    background-color:darkkhaki;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p{
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    background-color: thistle;
+}
+
+.nav-menu .lista-principal .items-menu .items-menu-p > a{
+    width: 50%;
+    height: auto;
+    display: block;
+    background-color: steelblue;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista{
+    width: 50%;
+    height: auto;
+    display: none;
+    background-color: steelblue;
+}
+
+.sub-lista{
+    list-style: none;
+    padding: 0%;
+    background-color: aquamarine;
+}
+
+.home{
+    background-color: chartreuse;
+}
+
+.masOpciones{
+    background-color: coral;
+}
+
+.item-subMenu{
+    width: 70%;
+    height: auto;
+    background-color: darkgrey;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista .item-subMenu > p{
+    width: 50%;
+    height: auto;
+    background-color: deeppink;
+}
+
+.nav-menu .lista-principal .items-menu:hover .sub-lista{
+    display: block;
+    background-color: deeppink;
+}
+
+.nav-menu .lista-principal .items-menu .sub-lista .item-subMenu > p > a:hover{
+    font-size: 20px;
+    color: white;
+}

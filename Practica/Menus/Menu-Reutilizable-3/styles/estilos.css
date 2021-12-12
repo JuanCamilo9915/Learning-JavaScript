@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    background-color: seashell;
+}
+
+.nav-menu{
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.nav-menu ul{
+    margin: 0px 10px 0px 10px;
+    list-style: none;
+    /*background-color: sienna;*//*Me gustó este color*/
+}
+
+.lista-principal > li{
+    position: relative;
+    display: inline-block;
+}
+
+.lista-principal > li > p{
+    display: block;
+    font-size: 20px;
+    padding: 15px 20px;
+}
+
+.lista-principal > li > p:hover{
+    font-size: 25px;
+    transition: all .3s;
+    background-color: lightyellow;
+}
+
+/*Submenu:*/
+.sub-lista{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    /*display: none;*/ /*Es reemplazado por el: visibility: hidden;*/
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: lightgray;
+}
+
+.sub-lista > li{
+    position: relative;
+}
+
+.sub-lista li p{
+    display: block;
+    padding: 15px;
+    background-color: lightgray;
+}
+
+.lista-principal li:hover .sub-lista{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: all .3s;
+    background-color: lightgray;
+}
+
+.lista-principal li .sub-lista li:hover{
+    transition: all .3s;
+    background-color: lightgray;
+}
+
+.lista-principal li .sub-lista li p:hover{
+    font-size: 20px;
+    transition: all .3s;
+    background-color: lightyellow;
+}
